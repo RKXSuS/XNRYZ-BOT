@@ -1,7 +1,7 @@
 ##CARA INSTALL MELALUI GIT
 
 > pkg install git
-> gitclone https://github.com/ItsAraZ/XNRYZ-BOT
+> gitclone https://github.com/RKXSuS/XNRYZ-BOT
 > cd XNRYZ-BOT
 > bash install.sh
 > npm start
