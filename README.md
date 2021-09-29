@@ -1,0 +1,18 @@
+##CARA INSTALL MELALUI GIT
+
+> pkg install git
+> gitclone https://github.com/ItsAraZ/XNRYZ-BOT
+> cd XNRYZ-BOT
+> bash install.sh
+> npm start
+> scan qr
+
+##CARA INSTALL
+
+> termux-setup-storage [Y]
+> cd /sdcard
+> cd -r arabot /$HOME
+> cd XNRYZ-BOT
+> bash install.sh 
+> npm start
+> Now scan the QR
