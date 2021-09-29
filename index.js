@@ -59,7 +59,7 @@ const vcard = 'BEGIN:VCARD\n' //jangan ganti Sayang
             + 'END:VCARD' //jangan ganti sayang
 prefix = '/' //terserah mau ganti apa gak muach
 blocked = [] //biarin aja ya sayang
-limitawal = 99999 //terserah mau ganti apa gak sayang
+limitawal = 20 //terserah mau ganti apa gak sayang
 memberlimit = 1 //terserah mau ganti apa gak sayang
 namabot = 'XNRYZ BOT'
 cr = '*「XNRYZ BOT」*' //ganti nama bot
