@@ -11,7 +11,7 @@
 
 > termux-setup-storage [Y]
 > cd /sdcard
-> cd -r arabot /$HOME
+> cd -r XNRYZ-BOT /$HOME
 > cd XNRYZ-BOT
 > bash install.sh 
 > npm start
