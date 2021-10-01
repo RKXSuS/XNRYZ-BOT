@@ -2571,7 +2571,6 @@ case 'lewd':
 case 'wallpaperanime':
 case 'blush':
 case 'animefanart':
-case 'neko':
 case 'shota':
 case 'feed':
 case 'kiss':
@@ -2585,6 +2584,7 @@ case 'slap':
 case 'cringe':
 case 'kill':
 case 'dance':
+case 'estetic':
 if (isBanned) return reply('Maaf kamu sudah terbenned!')
 if (!isRegistered) return reply( ind.noregis()) 
 reply(ind.wait())
@@ -2592,32 +2592,25 @@ rndm = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=f8
 client.sendMessage(from, rndm, image, { quoted: mek})
 break
 case 'sideoppai':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-rndmn = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/sideoppai?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, rndmn, image, { quoted: mek})
-break
 case 'ecchi':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-ecchi = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ecchi?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, ecchi, image, { quoted: mek})
-break
 case 'ahegao':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-ahegao = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ahegao?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, ahegao, image, { quoted: mek})
-break
 case 'hololewd':
+case 'yaoi':
+case 'yuri':
+case 'neko':
+case 'solo':
+case 'cum':
+case 'pussy':
+case 'futanari':
+case 'tits':
+case 'anal':
+case 'hentai':
+case 'hentaiparadise':
 if (isBanned) return reply('Maaf kamu sudah terbenned!')
 if (!isRegistered) return reply( ind.noregis()) 
 reply(ind.wait())
-hololewd = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hololewd?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, hololewd, image, { quoted: mek})
+rndmn = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=f8749f1897749e55c68f6198`)
+client.sendMessage(from, rndmn, image, { quoted: mek})
 break
 //MAKERMENU
                     // Textprome //
