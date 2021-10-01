@@ -2564,32 +2564,46 @@ if (args.length == 0) return reply(`Idnya mana kak?`)
 					break
 
 case 'waifu':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-waifu = await getBuffer(`https://api.lolhuman.xyz/api/random/waifu?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, waifu, image, { quoted: mek})
-break
 case 'husbu':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-husbu = await getBuffer(`https://api.lolhuman.xyz/api/random/husbu?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, husbu, image, { quoted: mek})
-break
 case 'loli':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.pedo())
-loli = await getBuffer(`https://api.lolhuman.xyz/api/random/loli?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, loli, image, { quoted: mek})
-break
 case 'elf':
+case 'lewd':
+case 'wallpaperanime':
+case 'blush':
+case 'animefanart':
+case 'neko':
+case 'shota':
+case 'feed':
+case 'kiss':
+case 'holo':
+case 'smug':
+case 'baka':
+case 'cry':
+case 'smile':
+case 'happy':
+case 'slap':
+case 'cringe':
+case 'kill':
+case 'dance':
 if (isBanned) return reply('Maaf kamu sudah terbenned!')
 if (!isRegistered) return reply( ind.noregis()) 
 reply(ind.wait())
-elf = await getBuffer(`https://api.lolhuman.xyz/api/random/elf?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, elf, image, { quoted: mek})
+rndm = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=f8749f1897749e55c68f6198`)
+client.sendMessage(from, rndm, image, { quoted: mek})
+break
+case 'sideoppai':
+if (isBanned) return reply('Maaf kamu sudah terbenned!')
+if (!isRegistered) return reply( ind.noregis()) 
+reply(ind.wait())
+rndmn = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/sideoppai?apikey=f8749f1897749e55c68f6198`)
+client.sendMessage(from, rndmn, image, { quoted: mek})
+break
+case 'ecchi':
+if (isBanned) return reply('Maaf kamu sudah terbenned!')
+if (!isRegistered) return reply( ind.noregis()) 
+reply(ind.wait())
+ecchi = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ecchi?apikey=f8749f1897749e55c68f6198`)
+client.sendMessage(from, ecchi, image, { quoted: mek})
 break
 case 'ahegao':
 if (isBanned) return reply('Maaf kamu sudah terbenned!')
@@ -2604,48 +2618,6 @@ if (!isRegistered) return reply( ind.noregis())
 reply(ind.wait())
 hololewd = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hololewd?apikey=f8749f1897749e55c68f6198`)
 client.sendMessage(from, hololewd, image, { quoted: mek})
-break
-case 'lewd':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-lewd = await getBuffer(`https://api.lolhuman.xyz/api/random2/lewd?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, lewd, image, { quoted: mek})
-break
-case 'wallpaperanime':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-wallpaperanime = await getBuffer(`https://api.lolhuman.xyz/api/random/wallnime?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, wallpaperanime, image, { quoted: mek})
-break
-case 'ecchi':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-ecchi = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ecchi?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, ecchi, image, { quoted: mek})
-break
-case 'blush':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-blush = await getBuffer(`https://api.lolhuman.xyz/api/random/blush?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, blush, image, { quoted: mek})
-break
-case 'sideoppai':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-sideoppai = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/sideoppai?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, sideoppai, image, { quoted: mek})
-break
-case 'animefanart':
-if (isBanned) return reply('Maaf kamu sudah terbenned!')
-if (!isRegistered) return reply( ind.noregis()) 
-reply(ind.wait())
-animefanart = await getBuffer(`https://api.lolhuman.xyz/api/random/art?apikey=f8749f1897749e55c68f6198`)
-client.sendMessage(from, animefanart, image, { quoted: mek})
 break
 //MAKERMENU
                     // Textprome //
